@@ -57,6 +57,7 @@ def resample_patient(data, seg, original_spacing, target_spacing, order_data=3, 
     assert not ((data is None) and (seg is None))
     if data is not None:
         assert len(data.shape) == 4, "data must be c x y z"
+        
     if seg is not None:
         assert len(seg.shape) == 4, "seg must be c x y z"
 

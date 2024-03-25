@@ -42,6 +42,7 @@ def recursive_find_python_class(folder, trainer_name, current_module):
 
 
 def restore_model(pkl_file, checkpoint=None, train=False, fp16=None):
+    # print("DEBUGGING: This is the pkl_file:", pkl_file)
     """
     This is a utility function to load any nnUNet trainer from a pkl. It will recursively search
     nnunet.trainig.network_training for the file that contains the trainer and instantiate it with the arguments saved in the pkl file. If checkpoint
@@ -54,6 +55,7 @@ def restore_model(pkl_file, checkpoint=None, train=False, fp16=None):
     :return:
     """
     info = load_pickle(pkl_file)
+    # print("Content pkl file:", info)
     init = info['init']
     name = info['name']
     search_in = join(nnunet.__path__[0], "training", "network_training")
@@ -148,8 +150,9 @@ def load_model_and_checkpoint_files(folder, folds=None, mixed_precision=None, ch
     return trainer, all_params
 
 
-if __name__ == "__main__":
-    pkl = "/home/fabian/PhD/results/nnUNetV2/nnUNetV2_3D_fullres/Task004_Hippocampus/fold0/model_best.model.pkl"
-    checkpoint = pkl[:-4]
-    train = False
-    trainer = restore_model(pkl, checkpoint, train)
+# if __name__ == "__main__":
+#     pkl = "/home/rnga/dawezenberg/my_scratch/nnUNetresults/nnUNet/3d_fullres/Task531_3D_cine_root_branches/nnUNetTrainerV2__nnUNetPlansv2.1/fold_4/model_best.model.pkl"
+#     # "/home/fabian/PhD/results/nnUNetV2/nnUNetV2_3D_fullres/Task004_Hippocampus/fold0/model_best.model.pkl"
+#     checkpoint = pkl[:-4]
+#     train = False
+#     trainer = restore_model(pkl, checkpoint, train)

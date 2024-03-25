@@ -1,0 +1,53 @@
+{
+    "description": "",
+    "labels": {
+        "0": "background",
+        "1": "aorta"
+    },
+    "licence": "hands off!",
+    "modality": {
+        "0": "M"
+    },
+    "name": "Task531_3D_cine_root_branches/",
+    "numTest": 15,
+    "numTraining": 0,
+    "reference": "",
+    "release": "0.0",
+    "tensorImageSize": "3D",
+    "test": [
+        "./imagesTs/scan_143_b01_0000.nii.gz",
+        "./imagesTs/scan_143_b02_0000.nii.gz",
+        "./imagesTs/scan_143_b03_0000.nii.gz",
+        "./imagesTs/scan_143_b04_0000.nii.gz",
+        "./imagesTs/scan_143_b05_0000.nii.gz",
+        "./imagesTs/scan_143_b06_0000.nii.gz",
+        "./imagesTs/scan_143_b07_0000.nii.gz",
+        "./imagesTs/scan_143_b08_0000.nii.gz",
+        "./imagesTs/scan_143_b09_0000.nii.gz",
+        "./imagesTs/scan_143_b10_0000.nii.gz",
+        "./imagesTs/scan_143_b11_0000.nii.gz",
+        "./imagesTs/scan_143_b12_0000.nii.gz",
+        "./imagesTs/scan_143_b13_0000.nii.gz",
+        "./imagesTs/scan_143_b14_0000.nii.gz",
+        "./imagesTs/scan_143_b15_0000.nii.gz",
+        "./imagesTs/scan_144_b01_0000.nii.gz",
+        "./imagesTs/scan_144_b02_0000.nii.gz",
+        "./imagesTs/scan_144_b03_0000.nii.gz",
+        "./imagesTs/scan_144_b04_0000.nii.gz",
+        "./imagesTs/scan_144_b05_0000.nii.gz",
+        "./imagesTs/scan_144_b06_0000.nii.gz",
+        "./imagesTs/scan_144_b07_0000.nii.gz",
+        "./imagesTs/scan_144_b08_0000.nii.gz",
+        "./imagesTs/scan_144_b09_0000.nii.gz",
+        "./imagesTs/scan_144_b10_0000.nii.gz",
+        "./imagesTs/scan_144_b11_0000.nii.gz",
+        "./imagesTs/scan_144_b12_0000.nii.gz",
+        "./imagesTs/scan_144_b13_0000.nii.gz",
+        "./imagesTs/scan_144_b14_0000.nii.gz",
+        "./imagesTs/scan_144_b15_0000.nii.gz",
+
+    ],
+    "training": []
+}
+
+
