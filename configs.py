@@ -15,3 +15,6 @@
 # Task531_3D_cine_root_branches
 # nnUNet_predict -i $nnUNet_raw_data_base/nnUNet_raw_data/Task531_3D_cine_root_branches/imagesTs/ -o /home/rnga/dawezenberg/my-scratch/outputs/ -t 531 -m 3d_fullres --disable_tta -tr nnUNetTrainerV2_AMC_100epochs
 # Note that you must ensure that the trainer file is located in the repo: /home/rnga/dawezenberg/my-rdisk/r-divi/RNG/Projects/stages/Pim/Doris/nnUNet/nnunet/training/network_training/
+
+
+nnUNet_predict -i $nnUNet_raw_data_base/nnUNet_raw_data/Task531_3D_cine_root_branches_gt/imagesTs/ -o /home/rnga/dawezenberg/my-scratch/outputs/gt/ -t 531 -m 3d_fullres -tr nnUNetTrainerV2_AMC_100epochs
