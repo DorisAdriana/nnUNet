@@ -2,12 +2,11 @@ import os
 # import nibabel as nib
 
 # Define the path to the folder containing the .nii.gz files
-folder_path = "/home/rnga/dawezenberg/my-scratch/nnUNet_raw_data_base/nnUNet_raw_data/Task531_3D_cine_root_branches_gt/imagesTs/"
+folder_path = "/home/rnga/dawezenberg/my-scratch/nnUNet_raw_data_base/nnUNet_raw_data/Task531_3D_cine_root_branches_pred/imagesTs/"
 
 import matplotlib.pyplot as plt
 import nibabel as nib
 import numpy as np
-from nilearn import plotting, image
 
 
 

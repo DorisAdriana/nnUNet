@@ -18,3 +18,4 @@
 
 
 nnUNet_predict -i $nnUNet_raw_data_base/nnUNet_raw_data/Task531_3D_cine_root_branches_gt/imagesTs/ -o /home/rnga/dawezenberg/my-scratch/outputs/gt/ -t 531 -m 3d_fullres -tr nnUNetTrainerV2_AMC_100epochs
+nnUNet_predict -i $nnUNet_raw_data_base/nnUNet_raw_data/Task531_3D_cine_root_branches_pred/imagesTs/ -o /home/rnga/dawezenberg/my-scratch/outputs/pred/ -t 531 -m 3d_fullres -tr nnUNetTrainerV2_AMC_100epochs
